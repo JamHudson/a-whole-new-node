@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Node<T> {
@@ -6,5 +7,6 @@ public class Node<T> {
   
   public Node(T value) {
     this.value = value;
+    this.children = new ArrayList<>();
   }
 }
